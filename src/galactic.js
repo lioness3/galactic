@@ -1,5 +1,13 @@
-export function AgeCalculator(earthAge,planet){
-let venus = (.62)
-  let planetAge = earthAge * planet;
-  return planetAge;
-}
+export class AgeCalculator{
+  constructor(earthAge,planet){
+    this.earthAge = earthAge;
+    this.planet = planet;
+  }
+
+  planetAgeConversion() {
+    let planetAge = this.earthAge * this.planet;
+
+    return planetAge;
+  }
+
+};
