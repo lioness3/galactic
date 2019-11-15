@@ -17,4 +17,8 @@ describe('AgeCalculator', () => {
     let marsAge = new AgeCalculator(30);
     expect(marsAge.mars()).toEqual(56);
   });
+  test('Should return user  age in mercury years(rounded)', () => {
+    let mercuryAge = new AgeCalculator(30);
+    expect(mercuryAge.mercury()).toEqual(56);
+  });
 });
