@@ -2,10 +2,10 @@ export class Expectancy{
   constructor(month){
     this.month = month;
   }
-  EarthLifeSpan(){
-    if(this.month <= 03){
+  earthLifeSpan(){
+    if(this.month <= 3){
       return 70;
-    }else if(this.month <= 07){
+    }else if(this.month <= 7){
       return 90;
     }else if(this.month <=11){
       return 100;

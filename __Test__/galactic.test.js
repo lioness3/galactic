@@ -1,5 +1,5 @@
 import { AgeCalculator } from './../src/galactic.js';
-
+import { Expectancy } from './../src/expectancy.js'
 describe('AgeCalculator', () => {
   // test('Should return users age in Venus years', () => {
   //   let venusAge = new AgeCalculator(30,.62);
@@ -22,7 +22,9 @@ describe('AgeCalculator', () => {
     expect(mercuryAge.mercury()).toEqual(7);
   });
 });
-test('Should compare entered month to life expectancy', () => {
-  let lifeExpectancy = Expectancy(07);
-  expect(lifeExpectancy).toEqual(70);
+describe('Expectancy', () => {
+  test('Should compare entered month to life expectancy', () => {
+    let lifeExpectancy = new Expectancy(7);
+    expect(lifeExpectancy.earthLifeSpan()).toEqual(70);
+  });
 });
