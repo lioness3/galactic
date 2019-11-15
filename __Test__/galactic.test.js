@@ -23,6 +23,6 @@ describe('AgeCalculator', () => {
   });
 });
 test('Should compare entered month to life expectancy', () => {
-  let lifeExpectancy = Expectancy(august);
+  let lifeExpectancy = Expectancy(07);
   expect(lifeExpectancy).toEqual(70);
 });
