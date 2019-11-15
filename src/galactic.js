@@ -1,5 +1,5 @@
-export function AgeCalculator(earthAge){
-
-  let planetAge = earthAge * (.24);
+export function AgeCalculator(earthAge,planet){
+let venus = (.62)
+  let planetAge = earthAge * planet;
   return planetAge;
 }
