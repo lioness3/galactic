@@ -9,7 +9,10 @@ export class AgeCalculator{
     return planetAge;
   }
 
-
+  jupiter(){
+    let planetAge = Math.round(this.earthAge * 11.86);
+    return planetAge;
+  }
 
 };
 
