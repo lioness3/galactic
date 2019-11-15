@@ -25,6 +25,6 @@ describe('AgeCalculator', () => {
 describe('Expectancy', () => {
   test('Should compare entered month to life expectancy', () => {
     let lifeExpectancy = new Expectancy(7);
-    expect(lifeExpectancy.earthLifeSpan()).toEqual(70);
+    expect(lifeExpectancy.earthLifeSpan()).toEqual(90);
   });
 });
