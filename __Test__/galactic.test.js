@@ -27,4 +27,8 @@ describe('Expectancy', () => {
     let lifeExpectancy = new Expectancy(7);
     expect(lifeExpectancy.earthLifeSpan()).toEqual(90);
   });
+  test('Should determine how many years left on venus', () => {
+    let venusLifeExpectancy = new Expectancy(7);
+    expect(venusLifeExpectancy.venus()).toEqual(20);
+  });
 });

@@ -11,6 +11,7 @@ export class Expectancy{
       return 100;
     }else{
       alert("Select the month you were born.");
-    };
-  };
+    }
+  }
+
 };
