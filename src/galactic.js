@@ -14,7 +14,10 @@ export class AgeCalculator{
     let planetAge = Math.round(this.earthAge * 11.86);
     return planetAge;
   }
-
+  mars(){
+    let planetAge = Math.round(this.earthAge * 1.88);
+    return planetAge;
+  }
 };
 
 

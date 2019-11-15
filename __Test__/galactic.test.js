@@ -16,4 +16,5 @@ describe('AgeCalculator', () => {
   test('Should return user  age in mars years(rounded)', () => {
     let marsAge = new AgeCalculator(30);
     expect(marsAge.mars()).toEqual(356);//expected to fail
+  });
 });
