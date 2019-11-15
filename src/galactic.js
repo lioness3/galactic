@@ -1,4 +1,5 @@
 export class AgeCalculator{
+
   constructor(earthAge){
     this.earthAge = earthAge;
   }
@@ -15,7 +16,6 @@ export class AgeCalculator{
   }
 
 };
-
 
 
 
