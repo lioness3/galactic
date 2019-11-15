@@ -22,3 +22,7 @@ describe('AgeCalculator', () => {
     expect(mercuryAge.mercury()).toEqual(7);
   });
 });
+test('Should compare entered month to life expectancy', () => {
+  let lifeExpectancy = Expectancy(august);
+  expect(lifeExpectancy).toEqual(70);
+});
