@@ -11,6 +11,6 @@ describe('AgeCalculator', () => {
   });
   test('Should return user  age in jupiter years(rounded)', () => {
     let jupiterAge = new AgeCalculator(30);
-    expect(jupiterAge.jupiter()).toEqual(3);//failed as expected
+    expect(jupiterAge.jupiter()).toEqual(356);
   });
 });
