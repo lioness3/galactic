@@ -5,9 +5,7 @@ export class AgeCalculator{
   }
 
   venus() {
-    let planetAge = this.earthAge * .62;
-
-    return planetAge;
+    return this.earthAge /.62;
   }
 
   jupiter(){
@@ -22,6 +20,10 @@ export class AgeCalculator{
     let planetAge = Math.round(this.earthAge * .24);
     return planetAge;
   }
+  lifeExpectancy(){
+    this.remainingEarthLife = 69 - this.earthAge;
+  }
+
 };
 
 
