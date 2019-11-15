@@ -18,6 +18,10 @@ export class AgeCalculator{
     let planetAge = Math.round(this.earthAge * 1.88);
     return planetAge;
   }
+  mercury(){
+    let planetAge = Math.round(this.earthAge * .24);
+    return planetAge;
+  }
 };
 
 
