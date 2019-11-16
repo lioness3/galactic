@@ -32,4 +32,4 @@ export class AgeCalculator{
   jupiterTime() {
     return Math.round(this.timeLeft/11.86);
   }
-};
+}
