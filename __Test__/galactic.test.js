@@ -28,6 +28,13 @@ describe('AgeCalculator', () => {
     superNova.timeRemainingEarth();
     expect(superNova.venusTime()).toEqual(224);
   });
+  test('Should return time remaining on mercury', () => {
+    let earthAge = 30;
+    let superNova = new AgeCalculator(earthAge);
+    superNova.timeRemainingEarth();
+    expect(superNova.mercuryTime()).toEqual(224);
+  });
+
 
 
 });
