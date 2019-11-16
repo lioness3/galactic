@@ -13,4 +13,7 @@ export class AgeCalculator{
   mars() {
     return Math.round(this.earthAge /1.88);
   }
+  jupiter() {
+    return Math.round(this.earthAge /11.86);
+  }
 };
