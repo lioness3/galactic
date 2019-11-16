@@ -17,4 +17,8 @@ describe('AgeCalculator', () => {
     let superNova = new AgeCalculator(30);
     expect(superNova.jupiter()).toEqual(3);
   });
+  test('Should return time remaining on earth', () => {
+    let superNova = new AgeCalculator(30);
+    expect(superNova.earth()).toEqual(p);
+
 });
