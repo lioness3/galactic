@@ -11,6 +11,6 @@ describe('AgeCalculator', () => {
   });
   test('Should return users age in mars years(rounded)', () => {
     let superNova = new AgeCalculator(30);
-    expect(superNova.mars()).toEqual(125);//expected to fail
+    expect(superNova.mars()).toEqual(16);
   });
 });
