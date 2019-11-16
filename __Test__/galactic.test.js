@@ -28,7 +28,7 @@ describe('AgeCalculator', () => {
     expect(superNova.venusTime()).toEqual(224);
   });
   test('Should return time remaining on mercury', () => {
-    let superNova = new AgeCalculator(earthAge);
+    let superNova = new AgeCalculator(30);
     superNova.timeRemainingEarth();
     expect(superNova.mercuryTime()).toEqual(579);
   });
@@ -40,9 +40,7 @@ describe('AgeCalculator', () => {
   test('Should return time remaining on jupiter', () => {
     let superNova = new AgeCalculator(30);
     superNova.timeRemainingEarth();
-    expect(superNova.jupiterTime()).toEqual(74);//expect to fail
+    expect(superNova.jupiterTime()).toEqual(12);
   });
-
-
 
 });
