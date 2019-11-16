@@ -10,4 +10,7 @@ export class AgeCalculator{
   mercury() {
     return Math.round(this.earthAge /.24);
   }
+  mars() {
+    return Math.round(this.earthAge /1.88);
+  }
 };
