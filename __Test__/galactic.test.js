@@ -9,4 +9,8 @@ describe('AgeCalculator', () => {
     let superNova = new AgeCalculator(30);
     expect(superNova.mercury()).toEqual(125);
   });
+  test('Should return users age in mars years(rounded)', () => {
+    let superNova = new AgeCalculator(30);
+    expect(superNova.mars()).toEqual(125);//expected to fail
+  });
 });
