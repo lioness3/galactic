@@ -18,8 +18,7 @@ describe('AgeCalculator', () => {
     expect(superNova.jupiter()).toEqual(3);
   });
   test('Should return time remaining on earth', () => {
-    let earthAge = 30;
-    let superNova = new AgeCalculator(earthAge);
+    let superNova = new AgeCalculator(30);
     expect(superNova.timeRemainingEarth()).toEqual(139);
   });
   test('Should return time remaining on venus', () => {
@@ -29,20 +28,17 @@ describe('AgeCalculator', () => {
     expect(superNova.venusTime()).toEqual(224);
   });
   test('Should return time remaining on mercury', () => {
-    let earthAge = 30;
     let superNova = new AgeCalculator(earthAge);
     superNova.timeRemainingEarth();
     expect(superNova.mercuryTime()).toEqual(579);
   });
   test('Should return time remaining on mars', () => {
-    let earthAge = 30;
-    let superNova = new AgeCalculator(earthAge);
+    let superNova = new AgeCalculator(30);
     superNova.timeRemainingEarth();
     expect(superNova.marsTime()).toEqual(74);
   });
   test('Should return time remaining on jupiter', () => {
-    let earthAge = 30;
-    let superNova = new AgeCalculator(earthAge);
+    let superNova = new AgeCalculator(30);
     superNova.timeRemainingEarth();
     expect(superNova.jupiterTime()).toEqual(74);//expect to fail
   });
