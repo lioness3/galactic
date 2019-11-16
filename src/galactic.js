@@ -17,6 +17,10 @@ export class AgeCalculator{
     return Math.round(this.earthAge /11.86);
   }
   timeRemainingEarth(){
-    return 169 - this.earthAge;
+    return this.timeLeft = 169 - this.earthAge;
   }
+  venusTime() {
+    return Math.round(this.timeLeft/.62);
+  }
+
 };
