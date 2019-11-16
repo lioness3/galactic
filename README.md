@@ -6,28 +6,19 @@
 #### _By: Joann Carter_
 ***************
 # _Description_
-##### This is an example of how I use Webpack and Test Driven Development.....???
+##### This is an example of how I use Webpack and Test Driven Development. The TDD was done starting with writing a test to fail, then writing a code to work and finally adjusting the output to pass the test. There is no UI for this project, only business Logic.I have set a pre-determined life expectancy of Earth Years to 169 years old.
 #  _Specification Chart_
 | Behavior  | Input  | Output  |
 |--------------|-----------|-----------|
 |takes a users age |  30 |  userAge = 30|
-|converts age to (xplanet) age| 30 on Earth | 7.2 years old on Mercury |
+|converts age to (xplanet) age| 30 on Earth |125 years old on Mercury |
 | rounds age to nearest whole number |7.2 | 7|
-|calculates life expectancy|user month| life expectancy on Earth|
-|determines how many years the user has left to live on each planet|20 years left on earth|4.8 "approximately 5 years left to live on Mercury"|
-|Rounds years left to live to nearest whole number|4.8|"approximately 5 years left to live on Mercury"|
-
+|calculates life remaining on each planet|169(xplanet years) - age(xplanet years)| 12 years remaining|
 ******************
-# _Setup_
-????
-*******************
 # _Technology Used_
-* HTML
 * Jest
-* CSS
-* jQuery
 * Javascript
-* Youtube
+* Webpack
 * MDN
 *******
 ###### _Licensing_
