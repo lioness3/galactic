@@ -32,7 +32,7 @@ describe('AgeCalculator', () => {
     let earthAge = 30;
     let superNova = new AgeCalculator(earthAge);
     superNova.timeRemainingEarth();
-    expect(superNova.mercuryTime()).toEqual(224);
+    expect(superNova.mercuryTime()).toEqual(579);
   });
 
 

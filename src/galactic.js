@@ -22,5 +22,8 @@ export class AgeCalculator{
   venusTime() {
     return Math.round(this.timeLeft/.62);
   }
+  mercuryTime() {
+    return Math.round(this.timeLeft/.24);
+  }
 
 };
