@@ -16,5 +16,7 @@ export class AgeCalculator{
   jupiter() {
     return Math.round(this.earthAge /11.86);
   }
-
+  timeRemainingEarth(){
+    return 169 - this.earthAge;
+  }
 };
