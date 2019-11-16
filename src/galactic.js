@@ -17,6 +17,7 @@ export class AgeCalculator{
     return Math.round(this.earthAge /11.86);
   }
   timeRemainingEarth(){
+    //life expectancy on Earth is 169 years old
     return this.timeLeft = 169 - this.earthAge;
   }
   venusTime() {
@@ -27,5 +28,8 @@ export class AgeCalculator{
   }
   marsTime() {
     return Math.round(this.timeLeft/1.88);
+  }
+  jupiterTime() {
+    return Math.round(this.timeLeft/11.86);
   }
 };
