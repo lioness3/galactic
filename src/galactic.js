@@ -25,5 +25,7 @@ export class AgeCalculator{
   mercuryTime() {
     return Math.round(this.timeLeft/.24);
   }
-
+  marsTime() {
+    return Math.round(this.timeLeft/1.88);
+  }
 };
